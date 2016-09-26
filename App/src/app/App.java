@@ -1,11 +1,11 @@
 package app;
-import view.CadastroPessoa;
+import view.MenuPrincipal;
 
 public class App {
 
     public static void main(String[] args) {
-        CadastroPessoa cp = new CadastroPessoa();
-        cp.show();
+        MenuPrincipal m = new MenuPrincipal();
+        m.show();
     }
     
 }
